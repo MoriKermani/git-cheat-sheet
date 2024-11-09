@@ -10,7 +10,7 @@ I just started using git in my life :).
 - `git branch` (show the branches and can put).
 - `git merge` (to merge branches togheder).
 - `git fetch` (what is the changes of repository that you are working with another before you pull it and merge it).
-- `git pull` (to get a repository to your local things) `git push = git fetch + git merge`.
+- `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about of commit).
 - `git tag` (put tag in your commit).
 - `git reset` (reset your current branch and working directory to some a HEAD before).
@@ -24,3 +24,8 @@ I just started using git in my life :).
 - `git cherry-pick` (to apply specific commit from one branch onto another branch).
 - `git stash` (to temporary save changes that you don't want to commit. for apply that use `git stash apply`).
 - `git clean` (to remove untracked files and directories).
+
+### Upgrade
+If there is a mistake or you can add more items, do me a favor and
+upgrade the list.
+Thank you.
