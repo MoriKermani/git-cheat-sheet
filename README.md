@@ -18,7 +18,7 @@ I just started using git in my life :).
 - `git grep` (to search string in any version of the project. if leave version in commit, it will search for all the files).
 - `git cat-file commit hash` (see commit details with hash. also you can search specificly for tree of that with ```git ls-tree``` and see the contens of file data with `git cat-file blob`).
 - `git diff` (compare index file with HEAD).
-- `git rebase` (to apply changes from one branch to another branch, or you can use `git rebase -i ` to apply some last commits).
+- `git rebase` (to apply changes from one branch to another branch(it chand the base of branch to HEAD of another branch), or you can use `git rebase -i ` to intractive rebase).
 - `git submodules add (repo's address)` (to use a repository for a part of your repository).
 - `git commit --amend` (to chandge the last commit ).
 - `git cherry-pick` (to apply specific commit from one branch onto another branch).
