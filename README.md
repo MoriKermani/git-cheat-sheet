@@ -24,6 +24,7 @@ I just started using git in my life :).
 - `git cherry-pick` (to apply specific commit from one branch onto another branch).
 - `git stash` (to temporary save changes that you don't want to commit. for apply that use `git stash apply`).
 - `git clean` (to remove untracked files and directories).
+- 'git am' (apply a series of patches from a mailbox).
 
 ### Upgrade
 If there is a mistake or you can add more items, do me a favor and
