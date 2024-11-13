@@ -17,14 +17,23 @@ I just started using git in my life :).
 - `git revert` (to undo changes that you have pushed).
 - `git grep` (to search string in any version of the project. if leave version in commit, it will search for all the files).
 - `git cat-file commit hash` (see commit details with hash. also you can search specificly for tree of that with ```git ls-tree``` and see the contens of file data with `git cat-file blob`).
-- `git diff` (compare index file with HEAD).
+- `git diff` (show changes between commits, commit and working tree, etc).
 - `git rebase` (to apply changes from one branch to another branch(it chand the base of branch to HEAD of another branch), or you can use `git rebase -i ` to intractive rebase).
 - `git submodules add (repo's address)` (to use a repository for a part of your repository).
 - `git commit --amend` (to chandge the last commit ).
 - `git cherry-pick` (to apply specific commit from one branch onto another branch).
 - `git stash` (to temporary save changes that you don't want to commit. for apply that use `git stash apply`).
 - `git clean` (to remove untracked files and directories).
-- 'git am' (apply a series of patches from a mailbox).
+- `git am` (apply a series of patches from a mailbox).
+- `git bisect` (use binary search to find the commit that introduced a bug).
+- `git bundle` (move objects and refs by archive).
+- `git checkout` (switch branches or restore working tree files).
+- `git citool` (graphical alternative to git-commit).
+- `git clone` (clone a repository into a new directory).
+- `git describe` (give an object a human readable name based on an available
+    ref).
+- `git format patch` (prepare patches for e-mail submission).
+- `git gc` (cleanup unnecessary files and optimize the local repository).
 
 ### Upgrade
 If there is a mistake or you can add more items, do me a favor and
