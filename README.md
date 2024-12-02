@@ -8,7 +8,9 @@ I just started using git in my life :).
 - `git status` (summary of the situation).
 - `git log` (history of changes).
 - `git branch` (show the branches and can put).
-- `git merge` (to merge branches togheder).
+- `git merge` (to merge branches togheder. also we can use `git merge
+    --squash` to merge the last commit to the main branch and delete the
+    previes commits of feature branch.)
 - `git fetch` (what is the changes of repository that you are working with another before you pull it and merge it).
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about of commit).
