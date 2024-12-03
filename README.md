@@ -3,24 +3,33 @@ I just started using git in my life :).
 
 ## The commands that should know to use git
 - `git init` (initial git repository in .git).
-- `git add` (take snapshot).
-- `git commit` (to store content permanetly in your repository).
+- `git clone` (clone a repository into a new directory).
+- `git add` (to add the local changes to your stage).
+- `git commit` (to store content permanetly in your local repository).
 - `git status` (summary of the situation).
-- `git log` (history of changes).
-- `git branch` (show the branches and can put).
-- `git merge` (to merge branches togheder. also we can use `git merge
-    --squash` to merge the last commit to the main branch and delete the
-    previes commits of feature branch.)
+- `git push` (to send the changes to remote of repo. for first time push in new
+    branches, you should use `git push -u origin branch-name`).
+- `git log` (history of changes. my suggest is `git log --all --graph
+    --decorate --oneline -- date-order` to see history).
+- `git branch` (create, show, and delete the branch. use `git push -d origin
+    branch` to delete branch from remote repo).
+- `git merge` (to merge a branch to this branch that you are in it. also you can see
+    the all commits of the another one branch. if use `git merge --squash`, you
+    can merge the last commit of that branch to your branch, so you have just
+    one commit instead of all commits of that branch, and this is so clearly and
+    readable one line commits.)
+- `git rebase` (to change the base of this branch to HEAD of another branch.
+    use `git rebase -i` for intractive).
 - `git fetch` (what is the changes of repository that you are working with another before you pull it and merge it).
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about of commit).
 - `git tag` (put tag in your commit).
-- `git reset` (reset your current branch and working directory to some a HEAD before).
+- `git reflog` (to see HEAD's numbers in log).
+- `git reset` (reset your current branch and working directory to a HEAD before).
 - `git revert` (to undo changes that you have pushed).
 - `git grep` (to search string in any version of the project. if leave version in commit, it will search for all the files).
 - `git cat-file commit hash` (see commit details with hash. also you can search specificly for tree of that with ```git ls-tree``` and see the contens of file data with `git cat-file blob`).
 - `git diff` (show changes between commits, commit and working tree, etc).
-- `git rebase` (to apply changes from one branch to another branch(it chand the base of branch to HEAD of another branch), or you can use `git rebase -i ` to intractive rebase).
 - `git submodules add (repo's address)` (to use a repository for a part of your repository).
 - `git commit --amend` (to chandge the last commit ).
 - `git cherry-pick` (to apply specific commit from one branch onto another branch).
@@ -31,7 +40,6 @@ I just started using git in my life :).
 - `git bundle` (move objects and refs by archive).
 - `git checkout` (switch branches or restore working tree files).
 - `git citool` (graphical alternative to git-commit).
-- `git clone` (clone a repository into a new directory).
 - `git describe` (give an object a human readable name based on an available
     ref).
 - `git format patch` (prepare patches for e-mail submission).
