@@ -1,5 +1,7 @@
-# I am trying to learn git
-I just started using git in my life :).
+# A good summery of git commands
+I just start learning git, so try to share it what I learned, and if you are
+advance, help me to expand it, or you can just use it for learn and
+review. enjoy :)
 
 ## The commands that should know to use git
 - `git init` (initial git repository in .git).
