@@ -11,10 +11,11 @@ review. enjoy :)
 - `git status` (summary of the situation).
 - `git push` (to send the changes to remote of repo. for first time push in new
     branches, you should use `git push -u origin branch-name`).
-- `git log` (history of changes. my suggest is `git log --all --graph
+- `git log` (history of commits. my suggest is `git log --all --graph
     --decorate --oneline -- date-order` to see history).
 - `git branch` (create, show, and delete the branch. use `git push -d origin
     branch` to delete branch from remote repo).
+- `git switch` (switch between branches).
 - `git merge` (to merge a branch to this branch that you are in it. also you can see
     the all commits of the another one branch. if use `git merge --squash`, you
     can merge the last commit of that branch to your branch, so you have just
@@ -22,7 +23,7 @@ review. enjoy :)
     readable one line commits.)
 - `git rebase` (to change the base of this branch to HEAD of another branch.
     use `git rebase -i` for intractive).
-- `git fetch` (what is the changes of repository that you are working with another before you pull it and merge it).
+- `git fetch` (what is the changes of repository that you are working with another, before you pull it and merge it).
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about of commit).
 - `git tag` (put tag in your commit).
