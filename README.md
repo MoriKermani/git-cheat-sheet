@@ -16,6 +16,7 @@ review. enjoy :)
 - `git branch` (create, show, and delete the branch. use `git push -d origin
     branch` to delete branch from remote repo).
 - `git switch` (switch between branches).
+- `git checkout` (switch branches or restore working tree files).
 - `git merge` (to merge a branch to this branch that you are in it. also you can see
     the all commits of the another one branch. if use `git merge --squash`, you
     can merge the last commit of that branch to your branch, so you have just
@@ -27,7 +28,7 @@ review. enjoy :)
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about of commit).
 - `git tag` (put tag in your commit).
-- `git reflog` (to see HEAD's numbers in log).
+- `git reflog` (to see HEAD's numbers in log stage).
 - `git reset` (reset your current branch and working directory to a HEAD before).
 - `git revert` (to undo changes that you have pushed).
 - `git grep` (to search string in any version of the project. if leave version in commit, it will search for all the files).
