@@ -7,12 +7,12 @@ review. enjoy :)
 - `git init` (initial git repository in .git).
 - `git clone` (clone a repository into a new directory).
 - `git add` (to add the local changes to your stage).
-- `git commit` (to store content permanetly in your local repository).
+- `git commit` (to store content permanetly in remote).
 - `git status` (summary of the situation).
 - `git push` (to send the changes to remote of repo. for first time push in new
     branches, you should use `git push -u origin branch-name`).
 - `git log` (history of commits. my suggest is `git log --all --graph
-    --decorate --oneline -- date-order` to see history).
+    --decorate --oneline --date-order` to see history).
 - `git branch` (create, show, and delete the branch. use `git push -d origin
     branch` to delete branch from remote repo).
 - `git switch` (switch between branches).
