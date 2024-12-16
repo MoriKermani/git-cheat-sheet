@@ -3,18 +3,17 @@ I just start learning git, so try to share it what I learned, and if you are
 advance, help me to expand it, or you can just use it for learn and
 review. enjoy :)
 
-## The commands that should know to use git
+## The commands those should know to use git
 - `git init` (initial git repository in .git).
 - `git clone` (clone a repository into a new directory).
-- `git add` (to add the local changes to your stage).
+- `git add` (to staging the local changes).
 - `git commit` (to store content permanetly in remote).
 - `git status` (summary of the situation).
-- `git push` (to send the changes to remote of repo. for first time push in new
-    branches, you should use `git push -u origin branch-name`).
+- `git push` (to send the changes to remote of repo. I suggest using this `git push origin branch-name`).
 - `git log` (history of commits. my suggest is `git log --all --graph
     --decorate --oneline --date-order` to see history).
 - `git branch` (create, show, and delete the branch. use `git push -d origin
-    branch` to delete branch from remote repo).
+    branch-name` to delete branch-name from remote repo).
 - `git switch` (switch between branches).
 - `git checkout` (switch branches or restore working tree files).
 - `git merge` (to merge a branch to this branch that you are in it. also you can see
@@ -26,7 +25,7 @@ review. enjoy :)
     use `git rebase -i` for intractive).
 - `git fetch` (what is the changes of repository that you are working with another, before you pull it and merge it).
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
-- `git show` (show details about of commit).
+- `git show` (show details about commit).
 - `git tag` (put tag in your commit).
 - `git reflog` (to see HEAD's numbers in log stage).
 - `git reset` (reset your current branch and working directory to a HEAD before).
@@ -42,7 +41,6 @@ review. enjoy :)
 - `git am` (apply a series of patches from a mailbox).
 - `git bisect` (use binary search to find the commit that introduced a bug).
 - `git bundle` (move objects and refs by archive).
-- `git checkout` (switch branches or restore working tree files).
 - `git citool` (graphical alternative to git-commit).
 - `git describe` (give an object a human readable name based on an available
     ref).
