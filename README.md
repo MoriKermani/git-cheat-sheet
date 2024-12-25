@@ -46,6 +46,7 @@ review. enjoy :)
     ref).
 - `git format patch` (prepare patches for e-mail submission).
 - `git gc` (cleanup unnecessary files and optimize the local repository).
+- `git remote -v` (show the remote that you are working on it).
 
 ### Upgrade
 If there is a mistake or you can add more items, do me a favor and
