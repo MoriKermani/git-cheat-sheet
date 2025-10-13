@@ -7,6 +7,8 @@ review. enjoy :)
 - `git init` (initial git repository in .git).
 - `git clone` (clone a repository into a new directory).
 - `git add` (to staging the local changes).
+- `git restore --stage <filename>` (to unstage what added and you don't want
+    it).
 - `git commit` (to store content permanetly in remote).
 - `git status` (summary of the situation).
 - `git push` (to send the changes to remote of repo. I suggest using this `git push origin branch-name`).
