@@ -29,6 +29,8 @@ review. enjoy :)
 - `git pull` (to get a repository to your local things) `git pull = git fetch + git merge`.
 - `git show` (show details about commit).
 - `git tag` (put tag in your commit).
+- `git push origin v0.0.1` (you should push tag after create it).
+- `git push origin --tags` (to push all tags you created).
 - `git reflog` (to see HEAD's numbers in log stage).
 - `git reset` (reset your current branch and working directory to a HEAD before).
 - `git revert` (to undo changes that you have pushed).
